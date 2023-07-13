@@ -552,3 +552,12 @@ video {
   color: ;
 }
 
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.hover\:text-green-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(34 197 94 / var(--tw-text-opacity));
+}
+
