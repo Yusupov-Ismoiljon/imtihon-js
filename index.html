@@ -69,11 +69,40 @@
                     </div>
                 </div>
                 <div class="block sm:hidden">
-                    <i class="fa-solid fa-bars fa-lg"></i>
+                    <i id="menu-open" class="fa-solid fa-bars fa-lg"></i>
+                </div>
+
+            </div>
+            <div id="menu"
+                class="hidden absolute w-full h-full text-center opacity-95 bg-slate-400 rounded-lg top-0 left-0 md:hidden">
+                <ul class="space-y-1 mb-3 pt-10">
+                    <li>
+                        <a class="font-medium text-[10px] hover:text-white duration-500" href="#">O'zbekiston</a>
+                    </li>
+                    <li>
+                        <a class="font-medium text-[10px] hover:text-white duration-500" href="#">Jahon</a>
+                    </li>
+                    <li>
+                        <a class="font-medium text-[10px] hover:text-white duration-500" href="#">Siyosat</a>
+                    </li>
+                    <li>
+                        <a class="font-medium text-[10px] hover:text-white duration-500" href="#">Sport</a>
+                    </li>
+                    <li>
+                        <a class="font-medium text-[10px] hover:text-white duration-500" href="#">Jinoyat</a>
+                    </li>
+                    <li>
+                        <a class="font-medium text-[10px] hover:text-white duration-500" href="#">Tehnikalar</a>
+                    </li>
+                </ul>
+                <div class="absolute top-0 right-10">
+                    <i id="menu-exit" class="fa-solid fa-xmark" style="color: #ff0000;"></i>
                 </div>
             </div>
         </div>
     </header>
+
+    <script src="./app.js"></script>
 </body>
 
 </html>
