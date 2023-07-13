@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="uz">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dunyo va Uzb Yangiliklar</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="./dist/output.css">
 </head>
+
 <body>
-    <header>
+    <header class="border-b-2">
         <div class="w-full max-w-[1400px] px-5 mx-auto">
             <div class="flex justify-between items-center py-10">
                 <div class="flex justify-between items-center">
@@ -17,28 +24,48 @@
                     <div>
                         <ul class="flex space-x-5">
                             <li>
-                                <a class="font-medium text-[20px] hover:text-green-500 duration-300" href="#">O'zbekiston</a>
+                                <a class="font-medium text-[20px] hover:text-green-500 duration-300"
+                                    href="#">O'zbekiston</a>
                             </li>
                             <li>
                                 <a class="font-medium text-[20px] hover:text-green-500 duration-300" href="#">Jahon</a>
                             </li>
                             <li>
-                                <a class="font-medium text-[20px] hover:text-green-500 duration-300" href="#">Siyosat</a>
-                            </li>   
+                                <a class="font-medium text-[20px] hover:text-green-500 duration-300"
+                                    href="#">Siyosat</a>
+                            </li>
                             <li>
                                 <a class="font-medium text-[20px] hover:text-green-500 duration-300" href="#">Sport</a>
                             </li>
                             <li>
-                                <a class="font-medium text-[20px] hover:text-green-500 duration-300" href="#">Jinoyat</a>
+                                <a class="font-medium text-[20px] hover:text-green-500 duration-300"
+                                    href="#">Jinoyat</a>
                             </li>
                             <li>
-                                <a class="font-medium text-[20px] hover:text-green-500 duration-300" href="#">Tehnikalar</a>
+                                <a class="font-medium text-[20px] hover:text-green-500 duration-300"
+                                    href="#">Tehnikalar</a>
                             </li>
                         </ul>
                     </div>
+                </div>
+                <div class="flex">
+                    <form class="relative mr-20" action="">
+                        <input class="border-2 border-green-500 p-2 rounded-lg z-30" type="search" name="Qidirish..."
+                            placeholder="Qidirish...">
+                        <button class="absolute w-20 bg-green-500 rounded-lg -m-5 top-5 py-[9.5px] -z-20">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        
+                    </form>
+                    <select class="text-white bg-green-500 p-2 rounded-lg">
+                        <option class="text-white">O'z</option>
+                        <option class="text-white">Ru</option>
+                        <option class="text-white">Ўз</option>
+                    </select> 
                 </div>
             </div>
         </div>
     </header>
 </body>
+
 </html>
