@@ -18,50 +18,58 @@
         <div class="w-full max-w-[1400px] px-5 mx-auto">
             <div class="flex justify-between items-center py-10">
                 <div class="flex justify-between items-center">
-                    <a class="mr-20" href="./index.html">
-                        <span class="font-bold text-[30px] hover:text-green-500 duration-300">Yangiliklar</span>
+                    <a href="./index.html">
+                        <span
+                            class="font-bold text-[20px] mr-5 hover:text-green-500 duration-300 md:text-[30px] md:mr-10">Yangiliklar</span>
                     </a>
-                    <div>
-                        <ul class="flex space-x-5">
+                    <div class="hidden md:block">
+                        <ul class="flex items-center space-x-4">
                             <li>
-                                <a class="font-medium text-[20px] hover:text-green-500 duration-300"
+                                <a class="font-medium text-[15px] hover:text-green-500 duration-300 md:text-[20px]"
                                     href="#">O'zbekiston</a>
                             </li>
                             <li>
-                                <a class="font-medium text-[20px] hover:text-green-500 duration-300" href="#">Jahon</a>
+                                <a class="font-medium text-[15px] hover:text-green-500 duration-300 md:text-[20px]"
+                                    href="#">Jahon</a>
                             </li>
                             <li>
-                                <a class="font-medium text-[20px] hover:text-green-500 duration-300"
+                                <a class="font-medium text-[15px] hover:text-green-500 duration-300 md:text-[20px]"
                                     href="#">Siyosat</a>
                             </li>
                             <li>
-                                <a class="font-medium text-[20px] hover:text-green-500 duration-300" href="#">Sport</a>
+                                <a class="font-medium text-[15px] hover:text-green-500 duration-300 md:text-[20px]"
+                                    href="#">Sport</a>
                             </li>
                             <li>
-                                <a class="font-medium text-[20px] hover:text-green-500 duration-300"
+                                <a class="font-medium text-[15px] hover:text-green-500 duration-300 md:text-[20px]"
                                     href="#">Jinoyat</a>
                             </li>
                             <li>
-                                <a class="font-medium text-[20px] hover:text-green-500 duration-300"
+                                <a class="font-medium text-[15px] hover:text-green-500 duration-300 md:text-[20px]"
                                     href="#">Tehnikalar</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="flex">
-                    <form class="relative mr-20" action="">
-                        <input class="border-2 border-green-500 p-2 rounded-lg z-30" type="search" name="Qidirish..."
-                            placeholder="Qidirish...">
-                        <button class="absolute w-20 bg-green-500 rounded-lg -m-5 top-5 py-[9.5px] -z-20">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </button>
-                        
-                    </form>
-                    <select class="text-white bg-green-500 p-2 rounded-lg">
-                        <option class="text-white">O'z</option>
-                        <option class="text-white">Ru</option>
-                        <option class="text-white">Ўз</option>
-                    </select> 
+                <div class="hidden min-[1100px]:block">
+                    <div class="flex">
+                        <form class="relative mr-20" action="">
+                            <input class="border-2 border-green-500 p-2 rounded-lg z-30" type="search"
+                                name="Qidirish..." placeholder="Qidirish...">
+                            <button class="absolute w-20 bg-green-500 rounded-lg -m-5 top-5 py-[9.5px] -z-20">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+
+                        </form>
+                        <select class="text-white bg-green-500 p-2 rounded-lg">
+                            <option class="text-white">O'z</option>
+                            <option class="text-white">Ru</option>
+                            <option class="text-white">Ўз</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="block sm:hidden">
+                    <i class="fa-solid fa-bars fa-lg"></i>
                 </div>
             </div>
         </div>
