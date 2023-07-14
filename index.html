@@ -10,6 +10,9 @@
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+
     <link rel="stylesheet" href="./dist/output.css">
 </head>
 
@@ -68,7 +71,7 @@
                         </select>
                     </div>
                 </div>
-                <div class="block sm:hidden">
+                <div class="block min-[767px]:hidden">
                     <i id="menu-open" class="fa-solid fa-bars fa-lg"></i>
                 </div>
 
@@ -103,10 +106,60 @@
     </header>
 
     <!-- hero -->
-    <div>
-        
+    <div class="w-full max-w-[1400px] mx-auto px-5 py-10 hero">
+        <div class="swiper mySwiper w-full h-full hover: duration-500 hidden min-[1100px]:block">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide text-center font-[18px] bg-white flex justify-center items-center">
+                    <div class="flex">
+                        <img class="mr-5"
+                            src="https://storage.kun.uz/source/thumbnails/_medium/9/x6nvrfFZfi-4WXcRERrVtqQbR7ggM6Hz_medium.jpg"
+                            alt="">
+                        <div>
+                            <h3 class="font-bold text-[20px] mb-5">Shavkat Mirziyoyev O'zbekiston prezidentligiga qayta
+                                saylandi</h3>
+                            <p class="font-medium text-[15px] mb-3">Saylovda davomat 79,8 foizni tashkil etgan.
+                                O'zbekistonning amaldagi davlat <br> rahbari 2030 yilga qadar prezidentlikda qoladi.</p>
+                            <p class="font-medium text-[15px] my-2">Markaziy saylov komissiyasi O'zbekistonda 9 iyul
+                                kuni bolib o'tgan navbatdan <br> tashqari prezidentlik saylovining dastlabki
+                                natijalarini ma'lum qildi.</p>
+                            <p class="font-medium text-[15px] mb-3">Unga ko'ra, prezident saylovida 15,6 mln kishi,
+                                ya'ni saylovchilarning 79,8 foizi qatnashgan.</p>
+                            <p class="font-medium text-[15px]">Shavkat Mirziyoyevga 13 mln 625 mingdan ortiq saylovchi
+                                (87,05 foiz) ovoz bergan. MSK raisi rasman Shavkat Mirziyoyevni O'zbekiston prezidenti
+                                etib saylangani bilan tabrikladi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide text-center font-[18px] bg-white flex justify-center items-center">
+                    <div class="flex space-x-4">
+                        <img src="https://storage.kun.uz/source/thumbnails/_medium/9/hIVvlGkeNJaF1u-LBcc46dZ_8dd5UiqO_medium.jpg"
+                            alt="">
+                        <div>
+                            <h3 class="font-bold text-[20px] mb-5">«Buni barcha OAV yozib chiqdi». Ukrainada okrug <br>
+                                qo'mondoni o'rinbosari halok bo'lgani tasdiqlandi</h3>
+                            <p class="font-medium text-[15px] mb-3">Rossiya mudofaa vazirligi Berdyanskda Janubiy harbiy
+                                okrug qo'mondoni o'rinbosari, general-leytenant Oleg Tsokov halok bo'lgani to'g'risida
+                                hafta boshida paydo bo'lgan ma'lumotni tasdiqlamadi. Lekin Ukrainadagi urushda ishtirok
+                                etgan rossiyalik yuqori martabali ofitser o'limi to'g'risidagi ma'lumotni propagandachi
+                                «Rossiya» telekanalidagi «60 minut» ko'rsatuvi efirida 58-armiyaning sobiq qo'mondoni,
+                                hozirda Davlat dumasi deputati bo'lgan zaxiradagi general-leytenant Andrey Gurulev
+                                tasdiqladi.</p>
+                            <p class="font-medium text-[15px] mb-3">Rossiya televideniyesidagi propaganda tok-shousida
+                                asosiy mavzu NATOning Vilnyusdagi shousi bo'lib qolgan bo'lsa-da, Olga Skabeyeva
+                                boshlovchilik qiladigan «60 minut» ko'rsatuvining navbatdagi efirida Rossiya qo'shinlari
+                                okkupatsiyasi ostidagi Berdyansk shahri Storm Shadow raketalari bilan o'qqa tutilgani
+                                mavzusiga ham to'xtab o'tildi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="./app.js"></script>
 </body>
 
